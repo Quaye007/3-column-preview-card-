@@ -1,4 +1,7 @@
 *{
+   
+   margin: 0%;
+   padding: 0%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 body{
@@ -109,6 +112,8 @@ body{
 .sub-main2{
     width: 30%;
     margin-left: 20px ;
+
+    justify-content: center;
 }
 
 
@@ -232,6 +237,15 @@ color: white;
 @media  (max-width: 1000px){
 
 
+    body{
+        align-items: center;
+        justify-content: center;
+        display: flex;  
+        margin: 0px;
+    
+    
+    width: 50rem;
+    }
 
     html{
         display: flex;
@@ -244,22 +258,34 @@ color: white;
     }
 
     .main{
-        width:80%;
+        width:70%;
         align-items: center;
         justify-content: center;
         display: flex;
         flex-direction: column;
-       
+        background-color: #ef9546;
+
+        margin: 0px;
+        padding: 0px;
+      
+        
     }
+
+
+
  .top-main{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         background-color: rgb(211, 247, 247);
 
+
+        width: 80%;
         align-items: center;
         height: auto;
         gap: 2rem;
+
+      
     
 
 
@@ -281,11 +307,16 @@ color: white;
 
     }
     .box-1{
+
+        width: 70%;
+
         justify-content: center;
         background-color: #ee69a4;
         padding: 0 100px;
-      align-items: center;
-   
+         align-items: center;
+            display: flex;
+
+          margin: 0px;
         font-size: 17px;
     }
 
@@ -293,7 +324,7 @@ color: white;
     #rating{
         
         height: 5rem;
-        width: 78vw;
+        width: 20rem;
         margin: 10px 0px;
         font-size: 10px;
 
@@ -320,6 +351,20 @@ color: white;
 
 
     .bottom-main{
+
+        width: 70%;
         flex-direction: column;
-    align-items: center; }
+    align-items: center;
+justify-content: center; }
+
+
+.review-box-1{
+    width: 20rem;
+}
+
+#rev-3{
+    width: 20rem;
+}
+
+
 }
