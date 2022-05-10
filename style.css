@@ -1,18 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+
+
+
+
+
+
 *{
    
    margin: 0%;
    padding: 0%;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Poppins' ;
 }
 body{
 
-    background-color: #f2f2;
+  
     align-items:center;
     justify-content: center;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
- 
+
+
+    
+
 }
 
 
@@ -40,6 +51,8 @@ body{
     width: 70%;
 
     align-items: center;
+
+    background-color: white;
 }
 
 
@@ -53,7 +66,7 @@ body{
     display: flex;
    
     margin-top: 5rem;
-    background-color: red;
+
     padding: 50px;
 }
 
@@ -121,7 +134,7 @@ body{
 
 #rating{
 
-    margin-top: 5px ;
+    margin-top: 10px ;
 
 
     background-color: #f7f2f7;
@@ -146,7 +159,7 @@ body{
     width: 90%;
     height: auto;
     display: flex;
-    background-color: blueviolet;
+
     padding: 10px 50px;
 
     gap: 2rem;
@@ -177,6 +190,14 @@ body{
 }
 
 
+#profile-2{
+    background-image: url(jean.jpg);
+}
+
+
+#profile-3{
+    background-image: url(kira.jpg);
+}
 .profile-text-1 h2{
 font-size: 13px;
 margin-bottom: 0px;
@@ -197,6 +218,9 @@ color: white;
 }
 
 
+#review-text p{
+    margin-top: 20px;
+}
 
 .review-box-1{
 
@@ -234,6 +258,34 @@ color: white;
     width: 25rem;
 }
 
+
+
+.custom-shape-divider-top-1652127343 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1652127343 svg {
+    position: relative;
+    display: block;
+    width: calc(204% + 1.3px);
+    height: 105px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1652127343 .shape-fill {
+    fill: #FFF0F0;
+}
+
+
+
+
+
+
 @media  (max-width: 1000px){
 
 
@@ -263,7 +315,7 @@ color: white;
         justify-content: center;
         display: flex;
         flex-direction: column;
-        background-color: #ef9546;
+      
 
         margin: 0px;
         padding: 0px;
@@ -277,7 +329,7 @@ color: white;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        background-color: rgb(211, 247, 247);
+   
 
 
         width: 80%;
@@ -311,7 +363,7 @@ color: white;
         width: 70%;
 
         justify-content: center;
-        background-color: #ee69a4;
+       
         padding: 0 100px;
          align-items: center;
             display: flex;
@@ -366,5 +418,15 @@ justify-content: center; }
     width: 20rem;
 }
 
+
+}
+
+
+
+@media  (max-width: 2000px){
+
+#review-text p{
+    font-size: 10px;
+}
 
 }
