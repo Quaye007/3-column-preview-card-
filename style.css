@@ -29,7 +29,7 @@ body{
 
 
 
-/* main section */
+/* main section  container*/
 
 
 
@@ -58,19 +58,19 @@ body{
 
 
 
-
-
+/* 
+top division of main content */
 
 .top-main{
-    width: 80%;
+    width: 100%;
     display: flex;
    
     margin-top: 5rem;
-
+    
     padding: 50px;
 }
 
-
+/* top division has two containers */
 
 
 .sub-main1{
@@ -122,9 +122,11 @@ body{
 }
 
 
+
+
 .sub-main2{
     width: 30%;
-    margin-left: 20px ;
+    margin-left: 10px ;
 
     justify-content: center;
 }
@@ -156,9 +158,10 @@ body{
 
 
 .bottom-main{
-    width: 90%;
+    width: 100%;
     height: auto;
     display: flex;
+    
 
     padding: 10px 50px;
 
@@ -180,7 +183,7 @@ body{
     justify-content: center;
     display: flex;
     flex-direction: row;
-  background-image: url(daniel.jpg);
+  background-image: url(img/daniel.jpg);
  
     background-color: yellow;
    background-size: cover;
@@ -191,12 +194,12 @@ body{
 
 
 #profile-2{
-    background-image: url(jean.jpg);
+    background-image: url(img/jean.jpg);
 }
 
 
 #profile-3{
-    background-image: url(kira.jpg);
+    background-image: url(img/kira.jpg);
 }
 .profile-text-1 h2{
 font-size: 13px;
@@ -213,7 +216,7 @@ color: white;
 
 
 #review-text{
-    font-size: 13px;
+    font-size: 12px;
     color: white;
 }
 
@@ -419,14 +422,43 @@ justify-content: center; }
 }
 
 
-}
-
-
-
-@media  (max-width: 2000px){
-
-#review-text p{
-    font-size: 10px;
+#review-text {
+    font-size: 12px;
 }
 
 }
+
+
+@media  (max-width: 400px){
+
+
+    .main{
+        width:40%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    
+
+        margin: 0px;
+        padding: 0px;
+      
+        
+    }
+
+ 
+
+    .review-box-1{
+        width: 15rem;
+    }
+
+    #rev-3{
+        width: 15rem;
+    }
+
+
+    #rating{
+        width: 15rem;
+    }
+}
+
